@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nevatrip/static/css/main.9877dc6a.css",
+    "main.js": "/nevatrip/static/js/main.4735249d.js",
+    "static/media/AdobeStock.png": "/nevatrip/static/media/AdobeStock.ef9ae6ea477da6e9ef92.png",
+    "static/media/rubSmal.svg": "/nevatrip/static/media/rubSmal.f1a657a72a7910be61d30592199d436a.svg",
+    "static/media/ruble-currency-sign.svg": "/nevatrip/static/media/ruble-currency-sign.47545e03e4d56eb1d253c703689e7832.svg",
+    "static/media/clock-circular-outline.svg": "/nevatrip/static/media/clock-circular-outline.9d3a6aadfb2757654615.svg",
+    "static/media/Vector.svg": "/nevatrip/static/media/Vector.29b8ed3cffe65eb9f131.svg",
+    "index.html": "/nevatrip/index.html",
+    "main.9877dc6a.css.map": "/nevatrip/static/css/main.9877dc6a.css.map",
+    "main.4735249d.js.map": "/nevatrip/static/js/main.4735249d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9877dc6a.css",
+    "static/js/main.4735249d.js"
+  ]
+}
