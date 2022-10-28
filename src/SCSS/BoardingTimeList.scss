@@ -1,0 +1,21 @@
+$boarding_Time_bg_color: #d9e8ff;
+.card {
+  &__start-time {
+    width: 63px;
+    height: 24px;
+    border-radius: 11px;
+    background-color: $boarding_Time_bg_color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background-color: #6ba6ff;
+    }
+  }
+  &__start-time:nth-child(-n + 3) {
+    margin-right: 8px;
+  }
+  &__start-time:last-child {
+    margin-right: auto;
+  }
+}

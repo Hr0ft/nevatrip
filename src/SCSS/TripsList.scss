@@ -1,0 +1,16 @@
+.trip-list {
+  font-family: 'Open Sans';
+  font-size: 14px;
+
+  &__wrapper {
+    margin: 0 auto;
+    min-width: 341px;
+    max-width: 420px;
+    background: #fff;
+    @media (min-width: 1070px) {
+      min-width: 970px;
+      max-width: 1106px;
+      height: 370px;
+    }
+  }
+}

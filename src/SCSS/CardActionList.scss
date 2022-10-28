@@ -1,0 +1,53 @@
+.card {
+  &__actions-list {
+    position: relative;
+    margin-top: 16px;
+    padding: 0px 20px 0 49px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    @media (min-width: 1070px) {
+      padding-left: 29px;
+      margin-left: 0;
+      margin-top: 43px;
+    }
+  }
+  &__actions-item {
+    min-height: 23px;
+    width: 243px;
+  }
+  &__actions-item:nth-child(1) {
+    margin-bottom: 9px;
+  }
+  &__actions-item:nth-child(2) {
+    margin-bottom: 11px;
+  }
+  &__actions-item:nth-child(3) {
+    margin-bottom: 13px;
+  }
+  &__actions-item::before {
+    position: absolute;
+    content: url(../assets/Vector.svg);
+    width: 16px;
+    height: 12px;
+    left: 13px;
+    @media (min-width: 1070px) {
+      left: 3px;
+    }
+  }
+  &__timelist {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 7px;
+
+    @media (min-width: 1070px) {
+      position: absolute;
+      bottom: 0px;
+      left: 240px;
+    }
+  }
+}
